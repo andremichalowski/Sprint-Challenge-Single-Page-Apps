@@ -1,6 +1,6 @@
 import React from "react";
 
-import StyledCard from './StyledComponenents';
+import StyledCard from './StyledComponents';
 
 export default function CharacterCard(props) {
   return (
