@@ -1,5 +1,5 @@
 import React from "react";
-import { Route, Link, NavLink } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 
 export default function WelcomePage() {
   return (
@@ -19,6 +19,8 @@ export default function WelcomePage() {
           <container className="containerB">
             <NavLink exact to="/Search"className="homelinks"><h2>Search</h2></NavLink>
             <NavLink to="/Characters"className="homelinks"><h2>Characters</h2></NavLink>
+            <NavLink to="/Locations"className="homelinks"><h2>Locations</h2></NavLink>
+            <NavLink to="/Episodes"className="homelinks"><h2>Episodes</h2></NavLink>
           </container>
           
         </container>
