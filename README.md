@@ -25,9 +25,11 @@ In this challenge, you will create a Single Page Application complete with Clien
 
 Demonstrate your understanding of this Sprint's concepts by answering the following free-form questions. Edit this document to include your answers after each question.
 
-- [ ]  Explain benefit(s) using `client-side routing`?
+- [x]  Explain benefit(s) using `client-side routing`?
 
 > Answer: 
+
+Clien-side routing makes changes the url programatically without making a network request. Because of this UI components can change conditionally depending on the URL. This makes actions, transitions, and animations faster because less information (html) is requested per action. This comes at the expense of intitial request upload speed and SEO quality but makes for a better user experience in the animiation/component heavy single app world. 
 
 ## Project Set Up
 
