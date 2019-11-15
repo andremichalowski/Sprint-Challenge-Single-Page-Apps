@@ -29,6 +29,7 @@ export default function SearchForm() {
  
   return (
     <section className="search-form">
+    <h2>Search!</h2>
      <form>
         <input
           type='text'

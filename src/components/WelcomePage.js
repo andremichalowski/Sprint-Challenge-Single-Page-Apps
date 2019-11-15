@@ -1,4 +1,5 @@
 import React from "react";
+import { Route, Link, NavLink } from 'react-router-dom';
 
 export default function WelcomePage() {
   return (
@@ -6,7 +7,7 @@ export default function WelcomePage() {
       <header>
         <h1>Welcome to the ultimate fan site!</h1>
 
-        <container className="container1">
+        <container className="cnt1">
           <container className="containerA">
             <img
               className="main-img"
@@ -14,11 +15,13 @@ export default function WelcomePage() {
               alt="rick"
             />
           </container>
-        </container>
+    
           <container className="containerB">
-            <a href="/Search">Search</a>
-            <a href="/Characters">Just Characters</a>
+            <NavLink exact to="/Search"className="homelinks"><h2>Search</h2></NavLink>
+            <NavLink to="/Characters"className="homelinks"><h2>Characters</h2></NavLink>
           </container>
+          
+        </container>
 
       </header>
     </section>

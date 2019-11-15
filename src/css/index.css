@@ -27,18 +27,37 @@ body {
   .grid-view div.card.ui {
     margin: 1.25rem;
   }
-  /*
+  
   .main-img {
     display: block;
-    border-radius: 100%;
+    border-radius: 80%;
     margin: 0 auto;
-  } */
+   
+    border: 30px solid lightblue;
+  }
   
   header h1 {
     text-align: center;
   }
   
-  .container {
+  .cnt1 {
     display: flex;
-    
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin: 10%;
+  }
+
+  .containerB {
+    padding: 2%;
+    margin: 2%;
+  }
+
+  .homelinks {
+    text-decoration: none;
+    color: lightblue;
+    /* background-color: tan;
+    border: 2px solid red; */
+    padding-right: 5%;
+    font-size: 1.5rem;
   }
