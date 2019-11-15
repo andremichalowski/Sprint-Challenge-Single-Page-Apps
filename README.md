@@ -101,7 +101,8 @@ There's a range of difficulty in the options below. 😈
 
 Start with the most *familiar (or fun) sounding* stretch goal.
 Complete search component to your list views.
-- [ ] Try adding 2 more components and display data from the episodes and locations end point.
+- [x] Try adding 2 more components and display data from the episodes and locations end point.
+
 - [x] https://rickandmortyapi.com/api/location/ - docs
 - [x] https://rickandmortyapi.com/api/episode/ - docs
 
@@ -116,15 +117,15 @@ Complete search component to your list views.
 - [ ]  Add additional fields to search form. They are unique for each endpoint. See **[Available parameters**.](https://rickandmortyapi.com/documentation/#filter-characters), etc..
 - [ ]  Use the [GraphQL Endpoint](https://rickandmortyapi.com/documentation/#graphql) with multiple search fields.
 
-> 💡Reminder: git commit -am 'Stretch Progress 💪'
+> 
 
 ## Completing
 
 > Follow these steps to complete your project:
 
-- [ ]  Submit a Pull Request to merge `<firstName-lastName>` branch into master (student's repo).
-- [ ]  Add your TL as a Reviewer on the Pull Request.
-- [ ]  TL then will count the HW as done by merging the branch into master.
+- [x]  Submit a Pull Request to merge `<firstName-lastName>` branch into master (student's repo).
+- [x]  Add your TL as a Reviewer on the Pull Request.
+- [x]  TL then will count the HW as done by merging the branch into master.
 
 <!-- TLs: NOTE: use resources to coach, or share over zoom - avoid sharing entire solution folder. Share preview links if available. -->
 
